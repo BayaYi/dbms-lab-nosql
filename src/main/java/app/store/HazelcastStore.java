@@ -3,7 +3,7 @@ package app.store;
 
 import com.hazelcast.client.HazelcastClient;
 import com.hazelcast.core.HazelcastInstance;
-import com.hazelcast.core.IMap;
+import com.hazelcast.map.IMap;
 import app.model.Student;
 
 public class HazelcastStore {
